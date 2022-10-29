@@ -1,0 +1,31 @@
+.container_SideMenu{
+    padding-left: 21px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 275px;
+    height: 900px;
+}
+
+.container_SideMenu h1{
+    margin-bottom: 15px;
+    padding-top: 14px;
+}
+
+.container_ul{
+    margin-bottom: 15px;
+}
+
+.container_ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.container_ul li a {
+    display: flex;
+    font-weight: 700;
+    font-size: 19px;
+    margin-left: 20px;
+}

@@ -27,6 +27,19 @@ module.exports = {
       'White': '#FFFFFF'
 
     },
+    height: {
+      'h-big': 49,
+      'h-Med': 39,
+      'h-Sec-sm': 30,
+      'h-Sec-md': 39,
+      'h-Av-md': 49,
+      'h-Av-sm': 39,
+
+    },
+    width: {
+      'w-Av-md': 49,
+      'w-Av-sm': 39,
+    },
     extend: {
       fontFamily: {
         sans: 'Poppins, sans-serif',

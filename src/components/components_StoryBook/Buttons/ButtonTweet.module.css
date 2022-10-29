@@ -3,7 +3,6 @@
     background: #1DA1F2;
     border-radius: 9999px;
     width: 228px;
-    height: 49px;  
     font-weight: 700;
     font-size: 15px;
 }
@@ -18,7 +17,6 @@
     background: #1DA1F2;
     border-radius: 9999px;
     width: 228px;
-    height: 39px; 
     font-weight: 700;
     font-size: 15px;
 }
@@ -31,7 +29,6 @@
 .buttonTweetSmall{
     color: #FFFFFF;
     width: 228px;
-    height: 30px;
     border: 1px solid #1DA1F2;
     border-radius: 9999px;
     font-weight: 700;
@@ -45,7 +42,6 @@
 .buttonTweetSecondaryMedium{
     color: #FFFFFF;
     width: 225px;
-    height: 39px;
     border: 1px solid #1DA1F2;
     border-radius: 9999px;
     font-weight: 700;

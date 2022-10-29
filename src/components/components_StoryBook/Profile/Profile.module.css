@@ -1,0 +1,27 @@
+.container_profile{
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    width: 255px;
+    height: 69px;
+}
+
+.container_texto{
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.container_texto h1{
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.container_texto h2{
+    margin: 0;
+    padding: 0;
+    color: #8899A6;
+    font-weight: 500;
+    font-size: 16px;
+}
