@@ -1,0 +1,32 @@
+@import url(./global.css);
+
+.containerMenu{
+    width: 290px;
+}
+
+.containerMain{
+    display: flex;
+    width: 1255px;
+    margin: 0 auto;
+}
+
+.containerFeed{
+    height: 1000px;
+    width: 600px;
+}
+
+.containerNews{
+    width: 350px;
+    margin-left: 30px;
+    position: fixed;
+    right: 120px;
+}
+
+
+.textoSide{
+    font-weight: 500;
+    font-size: 13px;
+    color: var(--dark-5);
+    margin-left: 16px;
+    margin-top: 5px;
+}

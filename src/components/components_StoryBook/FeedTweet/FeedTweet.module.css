@@ -1,0 +1,40 @@
+@import url(/src/components/components_StoryBook/News/News.module.css);
+@import url(/src/styles/global.css);
+
+.containerFeedTweet{
+    width: 598px;
+    margin-bottom: 18px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px var(--dark-7);
+    display: flex;
+}
+
+.body_tweet{
+    margin-left: 10px;
+}
+
+.body_tweet h2{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.body_tweet span{
+    color: var(--dark-5);
+}
+
+.body_tweet p{
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.body_tweet img{
+    border-radius: 16px;
+}
+
+
+.contIcons{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}

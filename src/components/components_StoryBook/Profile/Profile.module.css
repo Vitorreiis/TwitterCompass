@@ -2,7 +2,7 @@
     display: flex;
     background-color: transparent;
     align-items: center;
-    width: 255px;
+    width: 270px;
     height: 69px;
 }
 
@@ -24,4 +24,9 @@
     color: #8899A6;
     font-weight: 500;
     font-size: 16px;
+}
+
+.button{
+    border: none;
+    background-color: transparent;
 }

@@ -1,0 +1,50 @@
+@import url(/src/styles/global.css);
+@import url(/src/components/components_StoryBook/News/News.module.css);
+
+
+.container{
+    display: flex;
+}
+
+.container img{
+    border-radius: 99999px;
+    margin-right: 10px;
+}
+
+.followTitulo{
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 11px;
+    margin-bottom: 11px;
+}
+
+.containerFollow{
+    background: #F7F9FA;
+    border-radius: 16px;
+    width: 350px;
+}
+
+.containerFollow ul{
+   padding-left: 16px;
+   padding-right: 16px;
+}
+
+.li_FollowCount{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #EBEEF0;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    margin-bottom: 10px;
+}
+
+.li_FollowCount h1{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.li_FollowCount h2{
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--dark-6);
+}

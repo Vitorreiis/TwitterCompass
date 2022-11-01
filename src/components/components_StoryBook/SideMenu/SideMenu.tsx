@@ -1,8 +1,8 @@
 import { clsx } from 'clsx';
 import { Slot } from '@radix-ui/react-slot';
 import styles from './SideMenu.module.css'
-import { ButtonBig } from '../../components_Page/ButtonTweet/ButtonTweetBig';
-import { ProfilesWhiteComp } from '../../components_Page/Profile/ProfileWhite';
+import { Button } from '../ButtonsTweet/ButtonTweetPrimary';
+import { Profiles } from '../Profile/Profile';
 
 export interface SideMenuProps {
     asChild?: boolean;
@@ -18,9 +18,12 @@ export function SideMenus({ asChild, color }: SideMenuProps) {
             <div>
             <h1>Icon</h1>
             <ul className={styles.container_ul}>
-                <li>
-                    <p>Icon</p>
+                <li className={styles.checked}>
+                <i className={clsx(
+                    "fa-solid fa-house", styles.iconCor
+                )}></i>
                     <a href="" className={clsx(
+                        styles.aCheckedHome,
                         {
                             'text-Black': color === 'white',
                             'text-White': color === 'dark'
@@ -28,8 +31,9 @@ export function SideMenus({ asChild, color }: SideMenuProps) {
                     )}>Home</a>
                 </li>
                 <li>
-                    <p>Icon</p>
+                <i className="fa-light fa-hashtag"></i>
                     <a href="" className={clsx(
+                        styles.aChecked,
                         {
                             'text-Black': color === 'white',
                             'text-White': color === 'dark'
@@ -37,8 +41,9 @@ export function SideMenus({ asChild, color }: SideMenuProps) {
                     )}>Explore</a>
                 </li>
                 <li>
-                    <p>Icon</p>
+                <i className="fa-solid fa-bell"></i>
                     <a href="" className={clsx(
+                        styles.aChecked,
                         {
                             'text-Black': color === 'white',
                             'text-White': color === 'dark'
@@ -46,8 +51,9 @@ export function SideMenus({ asChild, color }: SideMenuProps) {
                     )}>Notifications</a>
                 </li>
                 <li>
-                    <p>Icon</p>
+                <i className="fa-solid fa-envelope"></i>
                     <a href="" className={clsx(
+                        styles.aChecked,
                         {
                             'text-Black': color === 'white',
                             'text-White': color === 'dark'
@@ -55,8 +61,9 @@ export function SideMenus({ asChild, color }: SideMenuProps) {
                     )}>Messages</a>
                 </li>
                 <li>
-                    <p>Icon</p>
+                <i className="fa-regular fa-bookmark"></i>
                     <a href="" className={clsx(
+                        styles.aChecked,
                         {
                             'text-Black': color === 'white',
                             'text-White': color === 'dark'
@@ -64,8 +71,9 @@ export function SideMenus({ asChild, color }: SideMenuProps) {
                     )}>Bookmarks</a>
                 </li>
                 <li>
-                    <p>Icon</p>
+                <i className="fa-regular fa-rectangle-list"></i>
                     <a href="" className={clsx(
+                        styles.aChecked,
                         {
                             'text-Black': color === 'white',
                             'text-White': color === 'dark'
@@ -73,8 +81,9 @@ export function SideMenus({ asChild, color }: SideMenuProps) {
                     )}>Lists</a>
                 </li>
                 <li>
-                    <p>Icon</p>
+                <i className="fa-regular fa-user"></i>
                     <a href="" className={clsx(
+                        styles.aChecked,
                         {
                             'text-Black': color === 'white',
                             'text-White': color === 'dark'
@@ -82,8 +91,9 @@ export function SideMenus({ asChild, color }: SideMenuProps) {
                     )}>Profiles</a>
                 </li>
                 <li>
-                    <p>Icon</p>
+                <i className="fa-solid fa-ellipsis"></i>
                     <a href="" className={clsx(
+                        styles.aChecked,
                         {
                             'text-Black': color === 'white',
                             'text-White': color === 'dark'
@@ -91,14 +101,9 @@ export function SideMenus({ asChild, color }: SideMenuProps) {
                     )}>More</a>
                 </li>
             </ul>
-            <ButtonBig />
+            <Button children='Tweet' size='big'/>
             </div>
-            <ProfilesWhiteComp color={clsx(
-                        {
-                            'text-Black': color === 'white',
-                            'text-White': color === 'dark'
-                        }
-                    )} />
+            <Profiles color='dark'/>
         </Comp>
     )
 }

@@ -1,0 +1,18 @@
+@import url(/src/styles/global.css);
+
+.buttonFollow{
+    border: 1px solid var(--primary-blue);
+    border-radius: 9999px;
+    background-color: transparent;
+    width: 80px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--primary-blue);
+}
+
+.buttonFollow:hover{
+    cursor: pointer;
+    transition: all 0.5s;
+    opacity: 0.8;
+}

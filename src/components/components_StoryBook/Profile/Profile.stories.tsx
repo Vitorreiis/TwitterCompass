@@ -5,7 +5,7 @@ export default {
     title: 'Components/Profiles',
     component: Profiles,
     args: {
-        color: 'white',
+        color: 'dark',
     },
     argTypes: {
         color: {

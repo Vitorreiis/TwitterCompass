@@ -1,11 +1,11 @@
 .container_SideMenu{
     padding-left: 21px;
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 275px;
-    height: 900px;
+    height: 760px;
+    position: fixed;
 }
 
 .container_SideMenu h1{
@@ -24,8 +24,28 @@
 }
 
 .container_ul li a {
+    text-decoration: none;
     display: flex;
     font-weight: 700;
     font-size: 19px;
     margin-left: 20px;
+}
+
+.container_ul li a:hover {
+    opacity: 0.9;
+}
+
+
+
+.aCheckedHome{
+    color: var(--primary-blue);
+}
+
+.aChecked:visited{
+    color: var(--black);
+
+}
+
+.iconCor{
+    color: var(--primary-blue);
 }
