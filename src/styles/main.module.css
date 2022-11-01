@@ -13,6 +13,7 @@
 .containerFeed{
     height: 1000px;
     width: 600px;
+    border: solid 1px var(--dark-7);
 }
 
 .containerNews{

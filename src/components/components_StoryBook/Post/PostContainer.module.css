@@ -1,8 +1,9 @@
+@import url(/src/styles/global.css);
 
 .container_PostContainer{
     display: flex;
     width: 600px;
-
+    border: solid 1px var(--dark-7);
 }
 
 .containerIcons{
