@@ -2,7 +2,7 @@ import {Meta, StoryObj} from '@storybook/react';
 import { ButtonSmall, ButtonProps } from './ButtonTweetSecondary';
 
 export default {
-    title: 'Components/ButtonTweet',
+    title: 'Buttons/ButtonTweet',
     component: ButtonSmall,
     args: {
         children: 'Tweet',

@@ -2,7 +2,7 @@ import {Meta, StoryObj} from '@storybook/react';
 import { NewsCont } from './News';
 
 export default {
-    title: 'Components/NewsCont',
+    title: 'Feed/NewsCont',
     component: NewsCont,
     /*args: {
         color: 'white',

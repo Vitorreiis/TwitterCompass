@@ -2,7 +2,7 @@ import {Meta, StoryObj} from '@storybook/react';
 import { ButtonFollowCont } from './ButtonFollow';
 
 export default {
-    title: 'Components/Button_follow',
+    title: 'Buttons/Button_follow',
     component: ButtonFollowCont ,
 } as Meta
 

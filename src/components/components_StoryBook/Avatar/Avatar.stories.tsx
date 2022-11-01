@@ -3,7 +3,7 @@ import { AvatarPerfil } from './Avatar';
 
 
 export default {
-    title: 'Components/Avatar',
+    title: 'Avatar/Avatar',
     component: AvatarPerfil,
     args: {
         size: 'sm',

@@ -2,7 +2,7 @@ import {Meta, StoryObj} from '@storybook/react';
 import { SideMenus } from './SideMenu';
 
 export default {
-    title: 'Components/SideMenu',
+    title: 'Feed/SideMenu',
     component: SideMenus,
     args: {
         color: 'white',

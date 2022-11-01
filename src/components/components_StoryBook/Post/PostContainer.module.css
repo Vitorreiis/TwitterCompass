@@ -9,6 +9,12 @@
     display: flex;
 }
 
+.containerIcons button{
+    background-color: transparent;
+    border: none;
+    margin-right: 5px;
+}
+
 .containerIconButton{
     display: flex;
     justify-content: space-between;

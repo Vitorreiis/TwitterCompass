@@ -2,7 +2,7 @@ import {Meta, StoryObj} from '@storybook/react';
 import { Text, TextProps } from "./Text";
 
 export default {
-    title: 'Components/TextSizes',
+    title: 'Text/TextSizes',
     component: Text,
     args: {
         children: 'Text Size',

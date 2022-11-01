@@ -4,7 +4,7 @@ import logoHomeBlue from '../../../assets/LogoHome_blue.svg';
 import logosHome from '../../../assets/Logos.svg';
 
 export default {
-  title: 'Components/Logos',
+  title: 'Logos/Imagens',
 };
 
 const image = {

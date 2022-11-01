@@ -2,7 +2,7 @@ import {Meta, StoryObj} from '@storybook/react';
 import { ButtonTwitterPost } from './ButtonTweetPost';
 
 export default {
-    title: 'Components/ButtonTweet',
+    title: 'Buttons/ButtonTweet',
     component: ButtonTwitterPost,
     args: {
         children: 'Tweet',

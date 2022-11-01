@@ -20,11 +20,11 @@ export function PostContainer({ asChild, color }: PostContainerProps) {
                 <input type="text" name="Text" placeholder='What’s happening?' id='textInput' required/>
                 <div className={styles.containerIconButton}>
                     <div className={styles.containerIcons}>
-                        <h1>.</h1>
-                        <h1>.</h1>
-                        <h1>.</h1>
-                        <h1>.</h1>
-                        <h1>.</h1>
+                        <button><img src="/src/assets/media.svg" alt="" /></button>
+                        <button><img src="/src/assets/gif.svg" alt="" /></button>
+                        <button><img src="/src/assets/poll.svg" alt="" /></button>
+                        <button><img src="/src/assets/emoji.svg" alt="" /></button>
+                        <button><img src="/src/assets/Schedule.svg" alt="" /></button>                        
                     </div>
                     <div>
                         <ButtonTwitterPost children='Tweet' />

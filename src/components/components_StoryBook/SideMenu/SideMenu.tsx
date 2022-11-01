@@ -16,7 +16,7 @@ export function SideMenus({ asChild, color }: SideMenuProps) {
     return (
         <Comp className={clsx(styles.container_SideMenu)}>
             <div>
-            <h1>Icon</h1>
+            <img src="/src/assets/logoTwitter.svg" alt="" />
             <ul className={styles.container_ul}>
                 <li className={styles.checked}>
                 <i className={clsx(

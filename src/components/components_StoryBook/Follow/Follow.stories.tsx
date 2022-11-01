@@ -2,7 +2,7 @@ import {Meta, StoryObj} from '@storybook/react';
 import { FollowCont } from './Follow';
 
 export default {
-    title: 'Components/Follow',
+    title: 'Feed/Follow',
     component: FollowCont,
 }
 
