@@ -57,3 +57,37 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 * Funcionalidades como mudar de tema e adicionar uma nova publicação não funcionam
 ---
+
+## Cores
+
+    --branco: `#FFFFFF;`
+    --black: `#0F1419`;`
+    --dark-1: `#17202A;`
+    --dark-2: `#1C2733;`
+    --dark-3: `#283340;`
+    --dark-4: `#3A444C;`
+    --dark-5: `#5B7083;`
+    --dark-6: `#8899A6;`
+    --dark-7: `#EBEEF0;`
+    --dark-8: `#F7F9FA;`
+    --primary-blue: `#1DA1F2;`
+    
+    
+## Tamanhos 
+
+height: {
+      'h-big': 49,
+      'h-Med': 39,
+      'h-Sec-sm': 30,
+      'h-Sec-md': 39,
+      'h-Av-md': 49,
+      'h-Av-sm': 39,
+
+    },
+width: {
+      'w-Av-md': 49,
+      'w-Av-sm': 39,
+    },
+    
+    
+Font: 'Poppins', sans serif
