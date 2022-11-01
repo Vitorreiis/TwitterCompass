@@ -15,6 +15,10 @@ export function App() {
       <SideMenus color='white'/>
       </div>
       <div className={styles.containerFeed}>
+        <div className={styles.header}>
+          <h1>Home</h1>
+          <button className={styles.star}><img src="/src/assets/star.svg" alt="" /></button>
+        </div>
         <PostContainer color='white'/>
         <FeedTweet img='/src/assets/Post-1.svg' tag='@johndue' texto='Tom is in a big hurry.' usuario='Devon Lane'/>
         <FeedTweet img='/src/assets/Post-2.svg' tag='@johndue' texto='Tom is in a big hurry.' usuario='Darlene Robertson'/>

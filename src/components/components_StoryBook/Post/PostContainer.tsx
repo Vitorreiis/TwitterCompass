@@ -17,7 +17,7 @@ export function PostContainer({ asChild, color }: PostContainerProps) {
         <Comp className={clsx(styles.container_PostContainer)}>
             <AvatarPerfil />
             <div className={styles.container_textIcon}>
-                <input type="text" name="Text" placeholder='What’s happening?' />
+                <input type="text" name="Text" placeholder='What’s happening?' id='textInput' required/>
                 <div className={styles.containerIconButton}>
                     <div className={styles.containerIcons}>
                         <h1>.</h1>

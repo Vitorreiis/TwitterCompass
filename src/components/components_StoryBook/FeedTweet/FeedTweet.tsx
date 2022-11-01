@@ -2,6 +2,7 @@ import { clsx } from 'clsx';
 import { Slot } from '@radix-ui/react-slot';
 import styles from './FeedTweet.module.css'
 import AvatarPerfil from '../Avatar/Avatar';
+import { error404 } from '../../../Js/app';
 
 export interface FeedTweetProps {
     asChild?: boolean;
@@ -28,7 +29,7 @@ export function FeedTweet({ asChild, img, usuario, texto, tag}: FeedTweetProps) 
                 <i className="fa-regular fa-heart"></i>
                 <i className="fa-solid fa-arrow-up-from-bracket"></i>
                 </div>
-                <button className={styles.buttonShowMore}>Show this thread</button>
+                <button className={styles.buttonShowMore} onClick={error404}>Show this thread</button>
             </div>
         </Comp> 
     )
