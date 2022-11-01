@@ -76,18 +76,18 @@ Mencione as ferramentas que você usou para criar seu projeto
 ## Tamanhos 
 
 height: {
-      'h-big': 49,
-      'h-Med': 39,
-      'h-Sec-sm': 30,
-      'h-Sec-md': 39,
-      'h-Av-md': 49,
-      'h-Av-sm': 39,
+      `'h-big': 49,`
+      `'h-Med': 39,``
+      `'h-Sec-sm': 30,`
+      `'h-Sec-md': 39,`
+      `'h-Av-md': 49,`
+      `'h-Av-sm': 39,`
 
     },
 width: {
-      'w-Av-md': 49,
-      'w-Av-sm': 39,
+      `'w-Av-md': 49,`
+      `'w-Av-sm': 39,`
     },
     
     
-Font: 'Poppins', sans serif
+Font: `'Poppins', sans serif`
