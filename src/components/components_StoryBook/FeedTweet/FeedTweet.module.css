@@ -6,8 +6,11 @@
     margin-bottom: 18px;
     padding-bottom: 10px;
     border-bottom: solid 1px var(--dark-7);
-    display: flex;
     border: 1px solid var(--dark-7);
+}
+
+.container_tweet{
+    display: flex;
 }
 
 .body_tweet{

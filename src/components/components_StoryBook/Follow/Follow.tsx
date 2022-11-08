@@ -2,7 +2,6 @@ import { clsx } from 'clsx';
 import { Slot } from '@radix-ui/react-slot';
 import { ButtonFollowCont } from '../ButtonFollow/ButtonFollow';
 import styles from './Follow.module.css'
-import { error404 } from '../../../Js/app';
 
 export interface FollowContProps {
     asChild?: boolean;
@@ -37,7 +36,7 @@ export function FollowCont({ asChild, color }: FollowContProps) {
                     </div>
                     <ButtonFollowCont />
                 </li>
-                <button className={styles.buttonShowMore} onClick={error404}>Show more</button>
+                <button className={styles.buttonShowMore}>Show more</button>
             </ul>
         </Comp> 
     )

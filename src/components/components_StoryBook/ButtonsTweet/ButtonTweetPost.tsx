@@ -2,6 +2,7 @@ import { Slot } from '@radix-ui/react-slot';
 import clsx from 'clsx';
 import { ReactNode } from 'react';
 import styles from './ButtonTweet.module.css';
+import { adiciona } from '../../../Js/controllers/post-controller';
 
 export interface ButtonTwitterPostProps {
     children: ReactNode;
