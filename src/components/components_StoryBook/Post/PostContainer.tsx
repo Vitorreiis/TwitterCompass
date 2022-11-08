@@ -24,7 +24,7 @@ class Form extends React.Component<{
         tempo: '',
         img: '',
         usuario: 'Vitao',
-        tag: '',
+        tag: '@Vitao',
     }
 
     adicionarTweet(evento: React.FormEvent<HTMLFormElement>){

@@ -1,0 +1,106 @@
+@import url('../../styles/global.css');
+
+.containerProfileScreen {
+    width: 599px;
+    background-color: var(--branco);
+}
+
+.containerBackgroundProfile {
+    width: 599px;
+    height: 200px;
+}
+
+.containerBackgroundProfile img{
+    width: 602px;
+}
+
+.container_conteudoProfile {
+    padding-left: 20px;
+}
+
+.container_perfilButton {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.container_perfilButton img {
+    width: 136px;
+    height: 136px;
+    border-radius: 100%;
+    border: solid 6px black;
+    position: relative;
+    top: -70px;
+}
+
+.container_perfilButton button {
+    width: 112px;
+    height: 39px;
+    color: var(--primary-blue);
+    margin-top: 10px;
+}
+
+.container_conteudoProfile h1 {
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.container_conteudoProfile h2 {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--dark-5);
+}
+
+.container_conteudoProfile h3{
+    font-weight: 500;
+font-size: 16px;
+}
+
+.profileLocalização{
+    display: flex;
+}
+
+.profileLocalização h3{
+    font-weight: 500;
+font-size: 16px;
+color: var(--dark-5);
+margin-right: 10px;
+}
+
+.profileFollow{
+    display: flex;
+}
+
+.profileFollow h3{
+    font-weight: 500;
+font-size: 16px;
+color: var(--dark-5);
+margin-right: 18px;
+}
+
+.profileFollow span{
+    font-weight: 700;
+font-size: 16px;
+color: var(--black);
+}
+
+.containerButtonsProfile{
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerButtonsProfile button{
+    font-weight: 700;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    height: 52px;
+    align-items: center;
+}
+
+.containerButtonsProfile button:hover{
+    border-bottom: solid 4px var(--primary-blue);
+    color: var(--primary-blue);
+    cursor: pointer;
+}

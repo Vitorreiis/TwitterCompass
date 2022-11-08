@@ -33,7 +33,6 @@
 
 .buttonTweetSmall{
     color: var(--branco);
-    width: 228px;
     border: 1px solid var(--primary-blue);
     border-radius: 9999px;
     font-weight: 700;
