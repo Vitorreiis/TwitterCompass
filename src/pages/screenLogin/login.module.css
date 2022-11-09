@@ -1,0 +1,60 @@
+@import url('../../styles/global.css');
+
+.containerMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerForm img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.containerForm h1{
+    font-weight: 900;
+    font-size: 42px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    width: 450px;
+    height: 70px;
+    margin-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+
+.form button{
+    width: 450px;
+    height: 60px;
+    background: #1DA1F2;
+    border-radius: 76px;
+    border: none;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--branco);
+    margin-bottom: 20px;
+}
+
+.form button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.containerLinks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerLinks a{
+    text-decoration: none;
+    color: var(--primary-blue);
+}

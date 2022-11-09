@@ -11,6 +11,7 @@
 
 .container_tweet{
     display: flex;
+    border: 1px solid var(--dark-7);
 }
 
 .body_tweet{
@@ -32,7 +33,7 @@
     margin-bottom: 10px;
 }
 
-.body_tweet img{
+.body_tweet .image_tweet{
     border-radius: 16px;
 }
 
@@ -41,4 +42,52 @@
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
+}
+
+.containerComments{
+    background-color: red;
+    list-style: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+.container_perfilComment{
+    display: flex;
+}
+
+.container_perfilComment h1{
+    font-size: 16px;
+}
+
+
+.container_perfilComment span{
+    font-size: 14px;
+}
+
+.container_comments{
+    margin-left: 10px;
+}
+
+.commentsAvatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+
+}
+
+.containerbodyComments input {
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+
+.containerIconsTweet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerIconsTweet h4 {
+    margin-left: 5px;
 }

@@ -6,7 +6,6 @@ import { FollowCont } from './components/components_StoryBook/Follow/Follow';
 import { Lista } from './components/components_StoryBook/FeedTweet/FeedTweet';
 import Form from './components/components_StoryBook/Post/PostContainer';
 import React, {useState} from 'react';
-import { ProfileScreen } from './pages/screenProfile/profile';
 
 export function App() {
 
