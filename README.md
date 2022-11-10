@@ -1,12 +1,14 @@
 # Twitter - COMPASS
 ![image](https://user-images.githubusercontent.com/81445945/199205666-19fbc0d3-52cc-4503-8876-b49445953e35.png)
+![image](https://user-images.githubusercontent.com/81445945/200984708-054fd6fe-fa2f-4cbf-9fd4-5d4930d91d4d.png)
 
 
 
-Clonando a interface do twitter
+Clonando a interface do twitterHome e do Login. Projeto destinado ao apredizado de React e storybook
 
 #Figma
 https://www.figma.com/file/uGJEUGLZJe9VeZyubNs1fP/UI-Twitter-Web-(Community)-(Copy)?node-id=5%3A415
+https://www.figma.com/file/9bFIK4zEFwYbBxsw9g2PiS/Twitter-desktop-pages-(feed%2C-sigup%2C-login%2C-profile)-(Community)?node-id=0%3A1&t=OIoqYClt4emnTzIF-0
 
 ## 🚀 Começando
 
