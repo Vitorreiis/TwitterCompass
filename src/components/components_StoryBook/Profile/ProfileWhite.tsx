@@ -8,7 +8,7 @@ export interface ProfileProps {
     color: 'dark' | 'white',
 }
 
-export function ProfilesWhite({ asChild, color }: ProfileProps) {
+export function ProfilesWhite({ asChild }: ProfileProps) {
 
     const Comp = asChild ? Slot : 'div'
 

@@ -3,6 +3,7 @@ import { Slot } from '@radix-ui/react-slot';
 import styles from './SideMenu.module.css'
 import { Button } from '../ButtonsTweet/ButtonTweetPrimaryBig';
 import { Profiles } from '../Profile/Profile';
+import { ProfilesWhite } from '../Profile/ProfileWhite';
 
 export interface SideMenuProps {
     asChild?: boolean;
@@ -79,7 +80,7 @@ export function SideMenus({ asChild }: SideMenuProps) {
             </ul>
             <Button children='Tweet' size='big'/>
             </div>
-            <Profiles color='dark'/>
+            <ProfilesWhite color='white'/>
         </Comp>
     )
 }
