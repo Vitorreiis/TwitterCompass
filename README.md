@@ -57,7 +57,7 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 ## Observação
 
-* Funcionalidades como mudar de tema e adicionar uma nova publicação não funcionam
+* Só tem as funcionalidades de ir pra page de error 404 e de adicionar tweet
 ---
 
 ## Cores
