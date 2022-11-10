@@ -1,0 +1,52 @@
+@import url('/src/styles/global.css');
+
+.footerContainer{
+    width: 100%;
+    background-color: var(--primary-blue);
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.textContainer{
+    margin-left: 300px;
+}
+
+.textContainer h1{
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--branco);
+}
+
+.textContainer h2{
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--branco);
+}
+
+.buttonLogIn{
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: solid 1px var(--branco);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--branco);
+    margin-right: 10px;
+}
+
+.buttonSingUp{
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--branco);
+    border: solid 1px var(--branco);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--black);
+    margin-right: 30px;
+}
