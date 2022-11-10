@@ -47,6 +47,11 @@
 
 }
 
+.aCheckedDark:visited{
+    color: var(--branco);
+
+}
+
 .iconCor{
     color: var(--primary-blue);
 }

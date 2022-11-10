@@ -1,10 +1,13 @@
 .avatarPerfil{
     border-radius: 100%;
-    width: 39px;
-    height: 39px;
 }
 
 .avatarSm{
     width: 39px;
     height: 39px;
+}
+
+.avatarMd{
+    width: 49px;
+    height: 49px;
 }

@@ -1,5 +1,5 @@
 import {Meta, StoryObj} from '@storybook/react';
-import { SideMenus } from './SideMenu';
+import { SideMenus } from './SideMenuWhite';
 
 export default {
     title: 'Feed/SideMenu',
@@ -20,11 +20,5 @@ export default {
 export const SideMenuWhite = {
     args: {
         color: 'white',
-    },
-}
-
-export const SideMenuDark = {
-    args: {
-        color: 'dark',
     },
 }

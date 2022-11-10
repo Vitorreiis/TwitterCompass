@@ -10,21 +10,16 @@ export interface AvatarProps {
     size?: 'sm' | 'md';
 }
 
-export function AvatarPerfil({asChild, size }: AvatarProps) {
+export function AvatarSmContainer({asChild, size }: AvatarProps) {
 
     const Comp = asChild ? Slot : 'img'
 
     return (
             <Comp src={Avatar} alt="Avatar" className={clsx(
                 styles.avatarPerfil,
-                {
-                    'h-h-Av-md': size === 'md',
-                    'w-w-Av-md': size === 'md',
-                    'h-h-Av-sm': size === 'sm',
-                    'w-w-Av-sm': size === 'sm'
-                }
+                styles.avatarSm
             )}/>
     )
 }
 
-export default AvatarPerfil
+export default AvatarSmContainer;

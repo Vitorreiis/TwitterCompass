@@ -1,7 +1,7 @@
 import { clsx } from 'clsx';
 import { Slot } from '@radix-ui/react-slot';
 import styles from './PostContainer.module.css'
-import AvatarPerfil from '../Avatar/Avatar';
+import AvatarPerfil from '../Avatar/AvatarSm';
 import { ButtonTwitterPost } from '../ButtonsTweet/ButtonTweetPost';
 import React from 'react';
 

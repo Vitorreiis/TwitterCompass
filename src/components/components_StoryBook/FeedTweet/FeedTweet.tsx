@@ -1,7 +1,7 @@
 import { clsx } from 'clsx';
 import { Slot } from '@radix-ui/react-slot';
 import styles from './FeedTweet.module.css'
-import AvatarPerfil from '../Avatar/Avatar';
+import AvatarPerfil from '../Avatar/AvatarSm';
 import { error404 } from '../../../Js/app';
 import {Tweet} from './tweet/tweet';
 

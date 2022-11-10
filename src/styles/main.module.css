@@ -17,6 +17,7 @@
 }
 
 .containerNews{
+    padding-top: 10px;
     width: 350px;
     margin-left: 30px;
     position: fixed;

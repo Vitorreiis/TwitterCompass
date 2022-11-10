@@ -1,6 +1,6 @@
 import styles from '../../styles/main.module.css'
 import stylesProfile from './screenProfile.module.css'
-import { ButtonSmall } from '../../components/components_StoryBook/ButtonsTweet/ButtonTweetSecondary'
+import { ButtonSmall } from '../../components/components_StoryBook/ButtonsTweet/ButtonTweetSecondarySmall'
 
 
 export function ProfileScreen() {

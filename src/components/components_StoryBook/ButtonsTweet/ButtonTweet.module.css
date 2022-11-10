@@ -24,11 +24,15 @@
     width: 228px;
     font-weight: 700;
     font-size: 15px;
+    height: 39px;
+    background-color: var(--primary-blue);
 }
 
 .buttonTweetMedium:hover{
     opacity: 0.9;
     transition: ease-in 0.2s all;
+    cursor: pointer;
+
 }
 
 .buttonTweetSmall{
@@ -38,10 +42,13 @@
     font-weight: 700;
     font-size: 15px;
     background-color: transparent;
+    width: 228px;
+    height: 30px;
 }
 .buttonTweetSmall:hover{
     opacity: 0.9;
     transition: ease-in 0.2s all;
+    cursor: pointer;
 }
 
 .buttonTweetSecondaryMedium{
@@ -51,10 +58,14 @@
     border-radius: 9999px;
     font-weight: 700;
     font-size: 15px;
+    width: 225px;
+    height: 39px;
+    background-color: transparent;
 }
 .buttonTweetSecondaryMedium:hover{
     opacity: 0.9;
     transition: ease-in 0.2s all;
+    cursor: pointer;
 }
 
 .ButtonTwitterPost{

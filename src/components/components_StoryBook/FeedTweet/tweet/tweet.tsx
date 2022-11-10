@@ -1,4 +1,4 @@
-import AvatarPerfil from '../../Avatar/Avatar';
+import AvatarPerfil from '../../Avatar/AvatarSm';
 import styles from '../FeedTweet.module.css'
 import { error404 } from '../../../../Js/app';
 import { adiciona } from '../../../../Js/controllers/post-controller';

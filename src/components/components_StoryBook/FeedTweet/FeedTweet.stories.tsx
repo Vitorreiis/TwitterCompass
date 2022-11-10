@@ -1,9 +1,10 @@
 import {Meta, StoryObj} from '@storybook/react';
-import { FeedTweet } from './FeedTweet';
+import { Lista } from './FeedTweet';
+import Tweet from './tweet/tweet';
 
 export default {
     title: 'Feed/FeedTweet',
-    component: FeedTweet,
+    component: Tweet,
     args: {
         img: '/src/assets/Post-1.svg'
     },

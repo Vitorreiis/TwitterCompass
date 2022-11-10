@@ -17,12 +17,6 @@ export default {
     }
 };
 
-export const ProfileWhite = {
-    args: {
-        color: 'white',
-    }
-}
-
 export const ProfileDark = {
     args: {
         color: 'dark',

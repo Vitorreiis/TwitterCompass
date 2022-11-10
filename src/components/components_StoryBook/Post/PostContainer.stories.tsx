@@ -1,9 +1,9 @@
 import {Meta, StoryObj} from '@storybook/react';
-import { PostContainer } from './PostContainer';
+import Form from './PostContainer';
 
 export default {
     title: 'Components/Posts',
-    component: PostContainer,
+    component: Form,
 }
 
 export const Post = {}

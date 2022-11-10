@@ -1,7 +1,7 @@
 import { clsx } from 'clsx';
 import { Slot } from '@radix-ui/react-slot';
 import styles from './SideMenu.module.css'
-import { Button } from '../ButtonsTweet/ButtonTweetPrimary';
+import { Button } from '../ButtonsTweet/ButtonTweetPrimaryBig';
 import { Profiles } from '../Profile/Profile';
 
 export interface SideMenuProps {
@@ -9,7 +9,7 @@ export interface SideMenuProps {
     color: 'dark' | 'white',
 }
 
-export function SideMenus({ asChild, color }: SideMenuProps) {
+export function SideMenus({ asChild }: SideMenuProps) {
 
     const Comp = asChild ? Slot : 'div'
 
@@ -24,80 +24,56 @@ export function SideMenus({ asChild, color }: SideMenuProps) {
                 )}></i>
                     <a href="" className={clsx(
                         styles.aCheckedHome,
-                        {
-                            'text-Black': color === 'white',
-                            'text-White': color === 'dark'
-                        }
+
                     )}>Home</a>
                 </li>
                 <li>
                 <i className="fa-light fa-hashtag"></i>
                     <a href="" className={clsx(
                         styles.aChecked,
-                        {
-                            'text-Black': color === 'white',
-                            'text-White': color === 'dark'
-                        }
+
                     )}>Explore</a>
                 </li>
                 <li>
                 <i className="fa-solid fa-bell"></i>
                     <a href="" className={clsx(
                         styles.aChecked,
-                        {
-                            'text-Black': color === 'white',
-                            'text-White': color === 'dark'
-                        }
+
                     )}>Notifications</a>
                 </li>
                 <li>
                 <i className="fa-solid fa-envelope"></i>
                     <a href="" className={clsx(
                         styles.aChecked,
-                        {
-                            'text-Black': color === 'white',
-                            'text-White': color === 'dark'
-                        }
+
                     )}>Messages</a>
                 </li>
                 <li>
                 <i className="fa-regular fa-bookmark"></i>
                     <a href="" className={clsx(
                         styles.aChecked,
-                        {
-                            'text-Black': color === 'white',
-                            'text-White': color === 'dark'
-                        }
+
                     )}>Bookmarks</a>
                 </li>
                 <li>
                 <i className="fa-regular fa-rectangle-list"></i>
                     <a href="" className={clsx(
                         styles.aChecked,
-                        {
-                            'text-Black': color === 'white',
-                            'text-White': color === 'dark'
-                        }
+
                     )}>Lists</a>
                 </li>
                 <li>
                 <i className="fa-regular fa-user"></i>
                     <a href="" className={clsx(
                         styles.aChecked,
-                        {
-                            'text-Black': color === 'white',
-                            'text-White': color === 'dark'
-                        }
+
                     )}>Profiles</a>
                 </li>
                 <li>
                 <i className="fa-solid fa-ellipsis"></i>
                     <a href="" className={clsx(
                         styles.aChecked,
-                        {
-                            'text-Black': color === 'white',
-                            'text-White': color === 'dark'
-                        }
+
                     )}>More</a>
                 </li>
             </ul>

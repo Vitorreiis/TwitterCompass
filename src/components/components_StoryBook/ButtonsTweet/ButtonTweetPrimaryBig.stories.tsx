@@ -1,5 +1,5 @@
 import {Meta, StoryObj} from '@storybook/react';
-import { Button, ButtonProps } from "./ButtonTweetPrimary";
+import { Button, ButtonProps } from "./ButtonTweetPrimaryBig";
 
 export default {
     title: 'Buttons/ButtonTweet',
@@ -21,11 +21,5 @@ export default {
 export const ButtonPrimaryBig: StoryObj<ButtonProps> = {
     args: {
         size: 'big',
-    }
-}
-
-export const ButtonPrimaryMedium: StoryObj<ButtonProps> = {
-    args: {
-        size: 'md',
     }
 }

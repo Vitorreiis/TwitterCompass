@@ -8,7 +8,7 @@ export interface ProfileProps {
     color: 'dark' | 'white',
 }
 
-export function Profiles({ asChild, color }: ProfileProps) {
+export function ProfilesWhite({ asChild, color }: ProfileProps) {
 
     const Comp = asChild ? Slot : 'div'
 
@@ -16,7 +16,7 @@ export function Profiles({ asChild, color }: ProfileProps) {
         <Comp className={clsx(styles.container_profile)}>
             <AvatarPerfil size='sm'/>
             <div className={clsx(styles.container_texto)}>
-                <h1 className={clsx(styles.textoBranco)}>David Biscuso</h1>
+                <h1 className={clsx(styles.textoPreto)}>David Biscuso</h1>
                 <h2>@biscuttu</h2>
             </div>
             <div>

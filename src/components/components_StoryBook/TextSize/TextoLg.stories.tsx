@@ -1,9 +1,9 @@
 import {Meta, StoryObj} from '@storybook/react';
-import { TextXs } from './Text';
+import { TextLgstyle } from './Text';
 
 export default {
     title: 'Text/TextSizes',
-    component: TextXs,
+    component: TextLgstyle,
     args: {
         children: 'Text Size',
     },
@@ -17,4 +17,4 @@ export default {
     }
 }
 
-export const TextXS: StoryObj = {}
+export const TextLg: StoryObj = {}

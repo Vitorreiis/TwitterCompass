@@ -1,28 +1,29 @@
 import './styles/global.css';
-import { SideMenus } from './components/components_StoryBook/SideMenu/SideMenu';
+import { SideMenus } from './components/components_StoryBook/SideMenu/SideMenuWhite';
 import styles from './styles/main.module.css'
 import { NewsCont } from './components/components_StoryBook/News/News';
 import { FollowCont } from './components/components_StoryBook/Follow/Follow';
 import { Lista } from './components/components_StoryBook/FeedTweet/FeedTweet';
 import Form from './components/components_StoryBook/Post/PostContainer';
 import React, {useState} from 'react';
+import { Search } from './components/components_StoryBook/News/Search/search';
 
 export function App() {
 
   const [tweets, setTweets] =  useState([
     {
-        textoTweet: 'Teste 1',
-        tempo: '20',
+        textoTweet: 'Tom is in a big hurry.',
+        tempo: '23',
         img: '/src/assets/Post-1.svg',
-        usuario: 'vitor',
+        usuario: 'Devon Lane',
         tag: '@johndue',
     },
     {
-        textoTweet: 'Teste 2',
-        tempo: '21',
+        textoTweet: 'Tom is in a big hurry.',
+        tempo: '23',
         img: '/src/assets/Post-2.svg',
-        usuario: 'vitao',
-        tag: '@vitao',
+        usuario: 'Darlene Robertson',
+        tag: '@johndue',
     }]);
 
   return (
@@ -39,6 +40,7 @@ export function App() {
         <Lista tweetsLista= {tweets}/>
       </div>
       <div className={styles.containerNews}>
+        <Search />
         <NewsCont color='white'/>
         <FollowCont color='white'/>
         <p className={styles.textoSide}>Terms of Service Privacy Policy Cookie Policy
